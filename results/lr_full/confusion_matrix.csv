@@ -1,4 +1,4 @@
-Confusion Matrix
-62638,0,1578
-1327,0,115
-8606,0,1840
+,Predicted 0,Predicted 1,Predicted 2
+Actual 0,62588,0,1515
+Actual 1,1259,0,111
+Actual 2,8759,0,1872
