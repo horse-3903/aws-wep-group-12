@@ -1,8 +1,8 @@
-### Model Evaluation Metrics
+# Model Evaluation Metrics
 
-When evaluating the performance of a machine learning model, several metrics are used to understand how well the model is performing. Below are the explanations of the key metrics used:
+Below are the explanations of the key metrics used:
 
-#### **Accuracy**
+## **Accuracy**
 - **Definition**: The ratio of correctly predicted instances to the total instances.
 - **Formula**:  
   $$
@@ -10,7 +10,7 @@ When evaluating the performance of a machine learning model, several metrics are
   $$
 - **Interpretation**: It gives the overall effectiveness of the model. However, it can be misleading if the dataset is imbalanced.
 
-#### **Precision**
+## **Precision**
 - **Definition**: The ratio of correctly predicted positive instances to the total predicted positives.
 - **Formula**:  
   $$
@@ -18,7 +18,7 @@ When evaluating the performance of a machine learning model, several metrics are
   $$
 - **Interpretation**: It indicates how many of the instances predicted as positive are actually positive. High precision means low false positive rate.
 
-#### **Recall**
+## **Recall**
 - **Definition**: The ratio of correctly predicted positive instances to all instances that are actually positive.
 - **Formula**:  
   $$
@@ -26,7 +26,7 @@ When evaluating the performance of a machine learning model, several metrics are
   $$
 - **Interpretation**: It shows how many of the actual positive instances were correctly identified by the model. High recall means low false negative rate.
 
-#### **F1 Score**
+## **F1 Score**
 - **Definition**: The harmonic mean of precision and recall.
 - **Formula**:  
   $$
@@ -34,7 +34,7 @@ When evaluating the performance of a machine learning model, several metrics are
   $$
 - **Interpretation**: It provides a balance between precision and recall. It is useful when the class distribution is imbalanced.
 
-#### **Confusion Matrix**
+## **Confusion Matrix**
 - **Definition**: A table used to describe the performance of a classification model. It shows the actual versus predicted classifications.
 - **Components**:
     - **True Positives (TP)**: Correctly predicted positive instances.
@@ -43,7 +43,7 @@ When evaluating the performance of a machine learning model, several metrics are
     - **False Negatives (FN)**: Incorrectly predicted negative instances.
 - **Interpretation**: It provides a detailed breakdown of correct and incorrect classifications, which helps in understanding the types of errors the model is making.
 
-#### **Classification Report**
+## **Classification Report**
 - **Definition**: A detailed report showing the precision, recall, F1 score, and support for each class.
 - **Components**:
     - **Precision**: As defined above.
